@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Restful-Learning.iml" filepath="$PROJECT_DIR$/Restful-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springKotlinDemo.iml" filepath="$PROJECT_DIR$/springKotlinDemo.iml" />
     </modules>
   </component>
 </project>

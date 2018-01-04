@@ -18,5 +18,6 @@ import org.springframework.stereotype.Service
         return "Hello Service"
     }
 
+
     fun getHelloData() = Hello("hello data from service",1)
 }

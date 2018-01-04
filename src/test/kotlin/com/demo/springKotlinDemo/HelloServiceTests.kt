@@ -38,4 +38,13 @@ import org.springframework.boot.test.context.SpringBootTest
         assertNotNull(result)
         assertEquals("Hello Service", result)
     }
+
+    @Test
+    fun tesGetHelloData(){
+        val result = demo.getHelloData()
+        assertNotNull(result.message)
+        assertEquals(1,result.id)
+    }
+
+
 }

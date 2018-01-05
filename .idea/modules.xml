@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basicAuth/basicAuth.iml" filepath="$PROJECT_DIR$/basicAuth/basicAuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/demo/demo.iml" filepath="$PROJECT_DIR$/../demo/demo/demo.iml" />
     </modules>
   </component>
 </project>

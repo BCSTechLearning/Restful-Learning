@@ -10,14 +10,13 @@ import org.springframework.stereotype.Service
 
     fun getHello(): String{
         Log.info("writing first log")
- //       var mes: String = "concatinate"
-//        if(true){
-//            Log.error("error log printing")
-//            throw Exception("exception found!!! "+mes)
-//        }
+        var mes: String = "concatinate"
+        if(true){
+            Log.error("error log printing")
+            throw Exception("error found")
+        }
         return "Hello Service"
     }
-
 
     fun getHelloData() = Hello("hello data from service",1)
 }

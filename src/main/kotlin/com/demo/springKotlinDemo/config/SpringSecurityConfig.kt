@@ -7,11 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.web.AuthenticationEntryPoint
 import org.springframework.security.config.annotation.web.builders.HttpSecurity
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder
-
-
-
-
-
+import org.springframework.web.bind.annotation.ExceptionHandler
 
 
 @Configuration
@@ -22,7 +18,7 @@ import org.springframework.security.config.annotation.authentication.builders.Au
         private val authEntryPoint: AuthenticationEntryPoint? = null
 
         @Override
-        @Throws(Exception::class)
+        @ExceptionHandler(Exception::class)
         protected override fun configure(http: HttpSecurity) {
                 http.csrf().disable().authorizeRequests()
                         .anyRequest().authenticated()

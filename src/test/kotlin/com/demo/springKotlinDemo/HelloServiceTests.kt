@@ -18,11 +18,17 @@ import org.springframework.boot.test.context.SpringBootTest
 
     @InjectMocks
     lateinit var helloController : HelloController
+
     @Mock
     lateinit var helloService : HelloService
-    @InjectMocks
-    lateinit var demo : HelloService
 
+    @Test
+    fun testHelloService(){
+        val result = helloService.getHello()
+        println("hello running tests")
+        assertNotNull(result)
+        assertEquals("Hello Service", result)
+    }
 
     @Test
     fun testHelloController(){
@@ -31,20 +37,4 @@ import org.springframework.boot.test.context.SpringBootTest
         assertNotNull(result)
         assertEquals("Hello Service",result)
     }
-
-    @Test
-    fun testHelloService(){
-        val result = demo.getHello()
-        assertNotNull(result)
-        assertEquals("Hello Service", result)
-    }
-
-    @Test
-    fun tesGetHelloData(){
-        val result = demo.getHelloData()
-        assertNotNull(result.message)
-        assertEquals(1,result.id)
-    }
-
-
 }

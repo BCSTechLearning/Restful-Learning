@@ -46,7 +46,6 @@ When installing it's recommended to have step by step series of examples that te
 ```
 gradlew bootRun
 ```
- 
 ###### Unix
 ```
 ./gradlew bootRun
@@ -55,12 +54,19 @@ gradlew bootRun
  
 **2 To run the development network:** 
 
-NAVIGATE: Navigate to 
+-Navigate
 ```
 localhost:8086/hello/unsecured
 ```
 
-RETURN: Ensure that you get "Beep boop" in return.
+-Ensure that you get "Beep boop" in return.
+
+### Looking for something in particular?
+
+| Spring Boot Configuration |Class or Java property files|
+| --------------------------|----------------------------|
+|   Main Class              |[Hello Application](/src/main/kotlin/bcs/testing/test/HelloApplication.kt)|
+|   Properties Files        |[Application Properties](/src/main/resources/application.properties (edited))|                  
 
 
 ### Running the Tests:
@@ -71,13 +77,10 @@ In this  section we mentioned  commands to run the test:
 ```
 gradlew test
 ```
- 
 ###### Unix
 ```
 ./gradlew test
 ```
-
-
 ### Deployment
 
 Follow the installation steps on your desired platform:

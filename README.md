@@ -1,3 +1,4 @@
+
 # EXAMPLE REST APPLICATION
 
 
@@ -49,6 +50,7 @@ gradlew bootRun
  
  
 **2 To run the development network:** 
+
 NAVIGATE: Navigate to 
 ```
 localhost:8086/hello/unsecured

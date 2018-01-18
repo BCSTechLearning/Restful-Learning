@@ -52,7 +52,7 @@ gradlew bootRun
  
 **2 To run the development network:** 
 
--Navigate.
+- Navigate.
 ```
 localhost:8086/hello/unsecured
 ```

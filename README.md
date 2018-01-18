@@ -27,7 +27,7 @@ The following items should be installed in your system:
 
 
 
-### Installing/ Development setup
+### Installing:
 
 When installing it's recommended to have step by step series of examples that tell you how to get a project running:
 
@@ -35,7 +35,7 @@ When installing it's recommended to have step by step series of examples that te
 ##### STEPS-
 
 
-**1 To RUN the server**
+**1 To RUN the server:**
 
 - Open a terminal in the project root directory.
 
@@ -52,7 +52,7 @@ gradlew bootRun
  
 **2 To run the development network:** 
 
--Navigate
+-Navigate.
 ```
 localhost:8086/hello/unsecured
 ```
@@ -70,7 +70,7 @@ localhost:8086/hello/unsecured
 ### Running the Tests:
 In this  section we mentioned  commands to run the test:
 
-**Gradle Test:**
+**Gradle Test**
 ###### Windows
 ```
 gradlew test
@@ -79,7 +79,7 @@ gradlew test
 ```
 ./gradlew test
 ```
-### Deployment
+### Deployment:
 
 Follow the installation steps on your desired platform:
 
@@ -91,24 +91,24 @@ Follow the installation steps on your desired platform:
 
 ### Built With:
 
-**1 Springboot:** Framework
+**1 Springboot-** Framework
 
-**2 Intelij:** IDE
+**2 Intelij-** IDE
 
-**3 Gradle:** Dependency Management
+**3 Gradle-** Dependency Management
 
-**4 Kotlin:** Language
+**4 Kotlin-** Language
 
 
 
-### Credits
+### Credits:
 
 [**Harrison Mckenzie**](mailto:harrison.mckenzie@bcstechnology.com.au)
 
 
 
 
-### Acknowledgment
+### Acknowledgment:
 
 - Spring Team
 

@@ -1,14 +1,14 @@
-#EXAMPLE REST APPLICATION
+# EXAMPLE REST APPLICATION
 
-###Introduction:
--Used to learn and test integration between Spring, Kotlin, and Spring Security.
--This  is designed for Software Professionals who are willing to learn REST application in simple and easy steps.
+### Introduction:
+- Used to learn and test integration between Spring, Kotlin, and Spring Security.
+- This  is designed for Software Professionals who are willing to learn REST application in simple and easy steps.
 
-###Getting Started:
--These instructions will help to get the understanding about the REST APPLICATIONS.
--And with this you will be able to run the project on your local machine for development and testing purposes.
+### Getting Started:
+- These instructions will help to get the understanding about the REST APPLICATIONS.
+- And with this you will be able to run the project on your local machine for development and testing purposes.
 
-###Prerequisites:
+### Prerequisites:
 The following items should be installed in your system:
 
 1 JDK 1.8
@@ -18,15 +18,18 @@ The following items should be installed in your system:
 (https://kotlinlang.org/docs/tutorials/command-line.html )
 
 
-###Installing/ Development setup
+### Installing/ Development setup
 
 When installing its recommended to have step by step series of examples that tell you how to get a project running:
 
-#####STEPS-
+##### STEPS-
 
-**1To RUN the server**
-RUN: Run  the server
+**1 To RUN the server**
+
+RUN: Run  the server.
+
 OPEN: Open a terminal in the project root directory.
+
 RUN COMMAND: Run  
 ```
 gradlew bootRun
@@ -39,7 +42,8 @@ localhost:8086/hello/unsecured
 ```
 RETURN: Ensure that you get "Beep boop" in return.
 
-###Running the Tests:
+
+### Running the Tests:
 In this  section we mentioned  commands to run the test:
 
 **1 Gradle Test:**
@@ -52,27 +56,33 @@ In this  section we mentioned  commands to run the test:
 ./gradlew runIntegrationTest
 ```
 
-###Deployment
+### Deployment
 Follow the installation steps on your desired platform:
--Build the production server with gradlew build.
--Find the runnable .jar in build/libs/.
--Deploy this jar to your desired platform.
+- Build the production server with gradlew build.
+- Find the runnable .jar in build/libs/.
+- Deploy this jar to your desired platform.
 
-###Built With:
+### Built With:
+
 **1 Springboot:** Framework
+
 **2 Intelij:**  IDE
+
 **3 Gradle:** Dependency Management
+
 **4 Kotlin:** Language
 
 
-###Credits
+### Credits
+
 **Harrison Mckenzie:** Rest of the work
 (harrison.mckenzie@bcstechnology.com.au)
 
-###Acknowledgment
--Hat tip to anyone who's code was used
--Spring Team
--Baeldung  (http://www.baeldung.com/) 
+### Acknowledgment
+
+- Hat tip to anyone who's code was used
+- Spring Team
+- Baeldung  (http://www.baeldung.com/) 
  
 
 

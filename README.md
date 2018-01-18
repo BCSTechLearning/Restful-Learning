@@ -37,8 +37,6 @@ When installing it's recommended to have step by step series of examples that te
 
 **1 To RUN the server**
 
-- Run the server.
-
 - Open a terminal in the project root directory.
 
 - Run command
@@ -72,7 +70,7 @@ localhost:8086/hello/unsecured
 ### Running the Tests:
 In this  section we mentioned  commands to run the test:
 
-**1 Gradle Test:**
+**Gradle Test:**
 ###### Windows
 ```
 gradlew test

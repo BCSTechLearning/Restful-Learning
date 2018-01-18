@@ -37,15 +37,21 @@ When installing it's recommended to have step by step series of examples that te
 
 **1 To RUN the server**
 
-RUN: Run the server.
+- Run the server.
 
-OPEN: Open a terminal in the project root directory.
+- Open a terminal in the project root directory.
 
-RUN COMMAND: Run  
+- Run command
+###### Windows
 ```
 gradlew bootRun
 ```
  
+###### Unix
+```
+./gradlew bootRun
+```
+
  
 **2 To run the development network:** 
 
@@ -61,9 +67,16 @@ RETURN: Ensure that you get "Beep boop" in return.
 In this  section we mentioned  commands to run the test:
 
 **1 Gradle Test:**
+###### Windows
+```
+gradlew test
+```
+ 
+###### Unix
 ```
 ./gradlew test
 ```
+
 
 ### Deployment
 

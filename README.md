@@ -1,4 +1,3 @@
-
 # EXAMPLE REST APPLICATION
 
 
@@ -6,6 +5,8 @@
 ### Introduction:
 - Used to learn and test integration between Spring, Kotlin, and Spring Security.
 - This  is designed for Software Professionals who are willing to learn REST application in simple and easy steps.
+
+![Diagram](ExampleRESTAPP.png)
 
 
 

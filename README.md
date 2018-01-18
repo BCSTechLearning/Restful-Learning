@@ -18,6 +18,7 @@
 
 
 ### Prerequisites:
+
 The following items should be installed in your system:
 
 1 [JDK 1.8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html )
@@ -64,7 +65,6 @@ In this  section we mentioned  commands to run the test:
 ./gradlew test
 ```
 
-
 ### Deployment
 
 Follow the installation steps on your desired platform:
@@ -89,7 +89,7 @@ Follow the installation steps on your desired platform:
 
 ### Credits
 
-[**Harrison Mckenzie:**](mailto:harrison.mckenzie@bcstechnology.com.au)
+[**Harrison Mckenzie**](mailto:harrison.mckenzie@bcstechnology.com.au)
 
 
 

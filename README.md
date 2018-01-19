@@ -9,7 +9,6 @@
 ![Diagram](ExampleRESTAPP.png)
 
 
-
 ### Getting Started:
 - These instructions will help to get the understanding about the REST APPLICATIONS.
 

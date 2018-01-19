@@ -88,6 +88,10 @@ Follow the installation steps on your desired platform:
 
 - Deploy this jar to your desired platform.
 
+### Open API Swagger:
+
+[Swagger API](api-docs.json)
+
 ### Built With:
 
 **1 Springboot-** Framework

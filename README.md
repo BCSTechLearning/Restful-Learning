@@ -1,4 +1,4 @@
-# EXAMPLE REST APPLICATION
+ # EXAMPLE REST APPLICATION
 
 
 
@@ -56,7 +56,7 @@ gradlew bootRun
 localhost:8086/hello/unsecured
 ```
 
--Ensure that you get "Beep boop" in return.
+- Ensure that you get "Beep boop" in return.
 
 ### Looking for something in particular?
 

@@ -81,9 +81,9 @@ gradlew test
 
 Follow the installation steps on your desired platform:
 
-- Build the production server with gradlew build.
+- Build the production server with `gradlew build`
 
-- Find the runnable .jar in build/libs
+- Find the runnable .jar in `build/libs`
 
 - Deploy this jar to your desired platform.
 

@@ -5,7 +5,7 @@
 
 - Helpful for the Developers who are interested in `Restful Learning Master Application`.
 
-![Diagram](ExampleRESTAPP.png)
+![Diagram](RogerRestful.png)
 
 
 ### Getting Started:
@@ -22,7 +22,7 @@
 This should be installed in your system:
 
 - [JDK 1.8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html )
-- Tomcat
+- [Tomcat 8]( http://tomcat.apache.org/tomcat-8.0-doc/)
 
 
 ### Installing:
@@ -55,7 +55,7 @@ localhost:8080/
 | --------------------------|----------------------------|
 |   Main Class              |[Application.main()]( https://github.com/BCSTechLearning/Restful-Learning/blob/roger/src/main/java/boot/Application.java)|
 |   Properties Files        |[Application.yml](https://github.com/BCSTechLearning/Restful-Learning/blob/roger/application.yml)| 
-|   Maven Configuration     | [pom.xml ] ( https://github.com/BCSTechLearning/Restful-Learning/blob/roger/pom.xml ) |
+|   Maven Configuration     | [pom.xml ]( https://github.com/BCSTechLearning/Restful-Learning/blob/roger/pom.xml ) |
 
 
 
@@ -82,7 +82,7 @@ Follow the installation steps on your desired platform:
 
 ### Credits:
 
-[**Roger Wang**](mailto: Lujie.Wang@bcstechnology.com.au)
+[**Roger Wang**](Lujie.Wang@bcstechnology.com.au)
 
 
 

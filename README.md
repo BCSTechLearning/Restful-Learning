@@ -5,6 +5,9 @@
 
 - Helpful for the Developers who are interested in `Restful Learning Master Application`.
 
+As per below diagram: x
+- Diagram is showing the structure of Restful learning showing how we are getting the output with oauth2 Authentication. 
+
 ![Diagram](RogerRestful.png)
 
 
@@ -18,10 +21,9 @@
 
 ### You will learn: 
 - You will be able to develop and design RESTful web services.
-- Understand the best practices in designing RESTful web services
-- Able to understand how to connect RESTful Services to a backend with JPA
-- Understand how to version your RESTful Web Services
-- Know how to monitor RESTful Services with Spring Boot Actuator
+- Understand the best practices in designing RESTful web services.
+- Able to understand how to connect RESTful Services to a back end with API.
+- Know how to monitor RESTful Services with Spring Boot Actuator.
 
 
 ### Prerequisites:

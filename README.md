@@ -9,12 +9,19 @@
 
 
 ### Getting Started:
-- These instructions will help to get the understanding about the REST APPLICATIONS.
 
-- And with this you will be able to run the project on your local machine for development and testing purposes.
+- It starts from a clean base rather than including a load of files which are unnecessary.
 
-- It starts from a clean base rather than includeing a load of files which are unnecessary.
+- You can get information from this learning for testing and development purpose.
 
+- Helpful in Rest Applications.
+
+### You will learn: 
+- You will be able to develop and design RESTful web services.
+- Understand the best practices in designing RESTful web services
+- Able to understand how to connect RESTful Services to a backend with JPA
+- Understand how to version your RESTful Web Services
+- Know how to monitor RESTful Services with Spring Boot Actuator
 
 
 ### Prerequisites:
@@ -27,7 +34,7 @@ This should be installed in your system:
 
 ### Installing:
 
-To get a project running successfully you have follow the given steps:
+To get a project running successfully you have to follow the given steps:
 
 
 ##### STEPS-
@@ -63,14 +70,14 @@ localhost:8080/
 
 Follow the installation steps on your desired platform:
 
-- Build the production server with imbedded Eclipse running command.
+- Build the application with imbedded Eclipse run/build command.
 
 - Export and deploy the project to Tomcat in a desired platform.
 
 - Run Tomcat.
 
 
-### Built With:
+### Appplication Built With:
 
 **1 Springboot-** Framework
 
@@ -90,6 +97,8 @@ Follow the installation steps on your desired platform:
 ### Acknowledgment:
 
 - Spring Team
+- Maven
+
 
  
 

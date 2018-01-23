@@ -1,15 +1,20 @@
- # RESTFUL-LEARNING MASTER APPLICATION
+
+# RESTFUL-LEARNING MASTER APPLICATION
 
 ### Introduction:
 - Helping in learning and testing integration between `Spring` and `Spring Security`.
 
 - Helpful for the Developers who are interested in `Restful Learning Master Application`.
 
-As per below diagram: x
+As per below diagram: 
 - Diagram is showing the structure of Restful learning showing how we are getting the output with oauth2 Authentication. 
+- The `/, /greeting` and `/oauth` end point are the permit all end point that open to everyone.
+- The `/product/*` end point is protected by the oauth2 by it still open to everyone since we marked it as open in the config.
+- The `/user/` and `/order/` end point is protected by the oauth2, which need the token issued together with the GET request to be posted in the url.
 
 ![Diagram](RogerRestful.png)
 
+![Diagram](Screenshot%20from%202018-01-15%2020-52-11.png)
 
 ### Getting Started:
 

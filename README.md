@@ -7,9 +7,9 @@
 - Helpful for the Developers who are interested in `Restful Learning Master Application`.
 
 Below Diagram is showing the structure of Restful learning showing how we are getting the output with Oauth2 Authentication:
-- The `/, /greeting` and `/oauth/*` end point are the permit all end point that open to everyone.
-- The `/product/*` end point is protected by the Oauth2 by it still open to everyone since we marked it as open in the configuration.
-- The `/user/*` and `/order/*` end point is protected by the oauth2, which need the token issued together with the `GET request` to be posted in the url.
+- The `/, /greeting` and `/oauth/*` end point are the permit-all end point that open to everyone.
+- The `/product/*` end point is protected by the Oauth2 but it still open to everyone since we marked it as open in the configuration.
+- The `/user/*` and `/order/*` end point is protected by the oauth2, which need the pre-issued token send together with the `GET request` to the server.
 
 ![Diagram](RogerRestful.png)
 

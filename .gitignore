@@ -1,25 +1,18 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
+########################################
+#### IDE specific rules:
+########################################
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.settings/
+target/
 *.iml
-*.ipr
+*.idea/
+logs/*
+.mvn/*
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
-.idea
+#######
+#################################
+#### OSX/Finder:
+########################################
+.DS_Store
+*.DS_Store

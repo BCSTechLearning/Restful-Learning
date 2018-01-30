@@ -19,4 +19,11 @@ public class HelloWorldService {
         return "Hello "+name;
     }
 
+    public String CustomExceptionService(String name, String op){
+        LOG.info("calling custom exception");
+        if(true) {
+            throw new ResourceNotFoundException(null,404,"Parameter not found");
+        }
+        return "data";
+    }
 }

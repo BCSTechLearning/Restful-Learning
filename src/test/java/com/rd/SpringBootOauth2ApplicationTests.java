@@ -14,5 +14,4 @@ public class SpringBootOauth2ApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

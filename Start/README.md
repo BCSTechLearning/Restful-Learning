@@ -14,10 +14,7 @@ Below Diagram is showing the structure of Restful learning showing how we are ge
 - The `/birds/noException/{birdId}` get end point is protected by Oauth2.0 Authorization and require an oauth token for access.
 - The `/birds` post end point is protected by Oauth2.0 Authorization and require an oauth token for access.
 
-![Diagram]()
-
-
-![Diagram]()
+![Diagram]( https://github.com/BCSTechLearning/Restful-Learning/blob/atul/Start/oauth2.png )
 
 
 ### Getting Started:

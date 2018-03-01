@@ -10,12 +10,9 @@
 Below Diagram is showing the structure of Restful learning showing how we are getting the output with Oauth2 Authentication:
 
 
-- The `/api/user/{name} end point is protected by Basic Authentication which require a username and a password to login.
+- The `/api/user/{name}` end point is protected by Basic Authentication which require a username and a password to login.
 
-![Diagram]()
-
-
-![Diagram]()
+![Diagram]( https://github.com/BCSTechLearning/Restful-Learning/blob/atul/basicAuth/basic_auth.png )
 
 
 ### Getting Started:

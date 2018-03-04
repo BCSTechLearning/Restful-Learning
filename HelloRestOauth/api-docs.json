@@ -1,0 +1,200 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Api Documentation",
+        "version": "1.0",
+        "title": "Api Documentation",
+        "termsOfService": "urn:tos",
+        "contact": {},
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    },
+    "host": "localhost:8086",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "hello-controller",
+            "description": "Hello Controller"
+        }
+    ],
+    "paths": {
+        "/hello/data": {
+            "get": {
+                "tags": [
+                    "hello-controller"
+                ],
+                "summary": "helloData",
+                "operationId": "helloDataUsingGET",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Hello"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "global"
+                        ]
+                    }
+                ]
+            }
+        },
+        "/hello/service": {
+            "get": {
+                "tags": [
+                    "hello-controller"
+                ],
+                "summary": "helloService",
+                "operationId": "helloServiceUsingGET",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "global"
+                        ]
+                    }
+                ]
+            }
+        },
+        "/hello/string": {
+            "get": {
+                "tags": [
+                    "hello-controller"
+                ],
+                "summary": "getHelloString",
+                "operationId": "getHelloString",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "global"
+                        ]
+                    }
+                ]
+            }
+        },
+        "/hello/unsecured": {
+            "get": {
+                "tags": [
+                    "hello-controller"
+                ],
+                "summary": "helloUnprotected",
+                "operationId": "helloUnprotectedUsingGET",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "*/*"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "global"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "oauth2": {
+            "type": "oauth2",
+            "authorizationUrl": "/oauth/authorize",
+            "flow": "implicit",
+            "scopes": {
+                "read": "Deafault read-only scope."
+            }
+        }
+    },
+    "definitions": {
+        "Hello": {
+            "type": "object",
+            "properties": {
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
